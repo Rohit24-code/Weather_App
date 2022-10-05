@@ -1,0 +1,77 @@
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}
+.mapouter {
+    text-align: center;
+    margin-top: 30px;
+    height: 500px;
+    width: 600px;
+    visibility: hidden;
+}
+
+#container{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    margin-top: 140px;
+    line-height: 50px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 12px;
+    visibility: hidden;
+    color: black;
+    /* opacity: 8; */
+
+}
+
+#main{
+    background: teal;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+#bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+*{
+margin: 0;
+padding: 0;
+/* background-image: url("https://mcdn.wallpapersafari.com/medium/41/5/2iVn7T.jpg"); */
+/* background-repeat: no-repeat; */
+/* width: 100vw; */
+/* height: 100vw; */
+}
+
+#bottom{
+    background-image: url("https://mcdn.wallpapersafari.com/medium/41/5/2iVn7T.jpg");
+    /* opacity: 1; */
+    /* width: 100vw; */
+}
+
+#submit{
+    background: white;
+    color: black;
+    border: 1px solid red;
+
+}
+#city{
+    background: white;
+    color: black;
+    
+}
+#btn{
+    background: white;    
+    color: black;
+
+}
